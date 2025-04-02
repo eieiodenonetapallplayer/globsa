@@ -1,0 +1,770 @@
+{
+    "applicationId": 138365,
+    "status": "APPROVED",
+    "ndidStatus": "ACCEPTED",
+    "isIDPAgent": false,
+    "ndidReferenceId": "391e47fa-e7be-418a-b99f-32aeb20d5c4c",
+    "ndidRequestId": "f38576574a620ce0ef6a8d75a5de401f4d10089f637bd9bf41cde671907a2841",
+    "ndidResponseErrorCode": null,
+    "ndidDataRequestErrorCode": null,
+    "statusDetail": {},
+    "types": [
+        "EQUITY_CASH_BALANCE",
+        "EQUITY_FRACTIONAL",
+        "FUND"
+    ],
+    "verificationType": "NDID_WITH_DATA",
+    "verifyIdpFailedCount": 0,
+    "cancelIdpCount": 1,
+    "contractNo": "544967604",
+    "ddrBankCode": "",
+    "ddrBankAccountNo": null,
+    "ddrStatus": null,
+    "ddrUrl": null,
+    "ddrReferenceCode": null,
+    "ddrRequestedTime": null,
+    "thaIDStatus": null,
+    "thaIDReferenceId": null,
+    "customerNo": null,
+    "createdTime": "2025-03-05T10:48:34.477",
+    "lastUpdatedTime": "2025-03-05T11:45:25.931",
+    "submittedTime": "2025-03-05T11:11:43.090",
+    "lastSubmittedTime": "2025-03-05T11:11:43.090",
+    "data": {
+        "rejectedFields": [],
+        "checkboxDisabledExpireDate": null,
+        "mobileNumber": "0818459654",
+        "fatcaAnswers": {
+            "answerList": [
+                {
+                    "questionId": "applicantFatcaQ1",
+                    "answer": [
+                        {
+                            "id": "N",
+                            "label": "ไม่ใช่",
+                            "required": true
+                        }
+                    ]
+                },
+                {
+                    "questionId": "applicantFatcaQ2",
+                    "answer": [
+                        {
+                            "id": "N",
+                            "label": "ไม่ใช่",
+                            "required": true
+                        }
+                    ]
+                },
+                {
+                    "questionId": "applicantFatcaQ3",
+                    "answer": [
+                        {
+                            "id": "N",
+                            "label": "ไม่ใช่",
+                            "required": true
+                        }
+                    ]
+                },
+                {
+                    "questionId": "applicantFatcaQ4",
+                    "answer": [
+                        {
+                            "id": "N",
+                            "label": "ไม่ใช่",
+                            "required": true
+                        }
+                    ]
+                },
+                {
+                    "questionId": "applicantFatcaQ5",
+                    "answer": [
+                        {
+                            "id": "N",
+                            "label": "ไม่ใช่",
+                            "required": true
+                        }
+                    ]
+                },
+                {
+                    "questionId": "applicantFatcaQ6",
+                    "answer": [
+                        {
+                            "id": "N",
+                            "label": "ไม่ใช่",
+                            "required": true
+                        }
+                    ]
+                },
+                {
+                    "questionId": "applicantFatcaQ7",
+                    "answer": [
+                        {
+                            "id": "N",
+                            "label": "ไม่ใช่",
+                            "required": true
+                        }
+                    ]
+                },
+                {
+                    "questionId": "applicantFatcaQ8",
+                    "answer": [
+                        {
+                            "id": "N",
+                            "label": "ไม่ใช่",
+                            "required": true
+                        }
+                    ]
+                },
+                {
+                    "questionId": "applicantFatcaQ9",
+                    "answer": [
+                        {
+                            "id": "N",
+                            "label": "ไม่ใช่",
+                            "required": true
+                        }
+                    ]
+                }
+            ],
+            "fatca": false,
+            "fatcaDeclarationDate": "20250305"
+        },
+        "mailingMethod": {
+            "key": "Email",
+            "displayName": "ทางอีเมล",
+            "type": "dropdown"
+        },
+        "asList": [
+            "{\"industry_code\":\"001\",\"company_code\":\"014\",\"marketing_name_th\":\"ธนาคารไทยพาณิชย์\",\"marketing_name_en\":\"Siam Commercial Bank (SCB)\",\"proxy_or_subsidiary_name_th\":\"\",\"proxy_or_subsidiary_name_en\":\"\",\"role\":\"AS\",\"running\":\"1\"}"
+        ],
+        "mailingAddressSameAsFlag": {
+            "key": "Residence",
+            "displayName": "ตามบัตรประชาชน",
+            "type": "dropdown"
+        },
+        "isShowFormGroup2": false,
+        "isShowFormGroup1": false,
+        "thFirstName": "อิสราภรณ์",
+        "enFirstName": "ISARAPORN",
+        "contact": {
+            "no": "5/2553",
+            "moo": "10",
+            "villageType": {
+                "key": "none",
+                "displayName": "ไม่มี",
+                "type": "dropdown"
+            },
+            "building": "",
+            "floor": "",
+            "soi": "-",
+            "road": "",
+            "subDistrict": "บางตลาด",
+            "district": "ปากเกร็ด",
+            "province": "นนทบุรี",
+            "country": "TH",
+            "postalCode": "11120"
+        },
+        "suitabilityAnswerList": [
+            {
+                "id": "applicantRiskScoreRiskNo01",
+                "label": "ปัจจุบันท่านอายุ",
+                "answer": [
+                    {
+                        "id": "1",
+                        "label": "ต้ังแต่ 60 ปีขึ้นไป",
+                        "score": 1
+                    }
+                ]
+            },
+            {
+                "id": "applicantRiskScoreRiskNo02",
+                "label": "ปัจจุบันท่านมีภาระทางการเงินและค่าใช้จ่ายประจำ เช่น ค่าผ่อนบ้าน รถ ค่าใช้จ่ายส่วนตัว และค่าเลี้ยงดูครอบครัว เป็นสัดส่วนเท่าใด",
+                "answer": [
+                    {
+                        "id": "4",
+                        "label": "น้อยกว่าร้อยละ 25 ของรายได้ทั้งหมด",
+                        "score": 4
+                    }
+                ]
+            },
+            {
+                "id": "applicantRiskScoreRiskNo03",
+                "label": "ท่านมีสถานภาพทางการเงินในปัจจุบันอย่างไร",
+                "answer": [
+                    {
+                        "id": "4",
+                        "label": "มีความมั่นใจว่ามีเงินออมหรือเงินลงทุนเพียงพอ สำหรับการใช้ชีวิตหลังเกษียณอายุแล้ว",
+                        "score": 4
+                    }
+                ]
+            },
+            {
+                "id": "applicantRiskScoreRiskNo04",
+                "label": "ท่านเคยมีประสบการณ์ หรือมีความรู้ในการลงทุนในทรัพย์สินกลุ่มใดต่อไปนี้บ้าง (เลือกได้มากกว่า 1 ข้อ)",
+                "answer": [
+                    {
+                        "id": "1",
+                        "label": "เงินฝากธนาคาร",
+                        "score": 1
+                    },
+                    {
+                        "id": "2",
+                        "label": "พันธบัตรรัฐบาล หรือกองทุนรวมพันธบัตรรัฐบาล",
+                        "score": 2
+                    },
+                    {
+                        "id": "3",
+                        "label": "หุ้นกู้ หรือกองทุนรวมตราสารหนี้",
+                        "score": 3
+                    },
+                    {
+                        "id": "4",
+                        "label": "หุ้นสามัญ หรือกองทุนรวมหุ้น หรือสินทรัพย์อื่นที่มีความเสี่ยงสูง",
+                        "score": 4
+                    }
+                ]
+            },
+            {
+                "id": "applicantRiskScoreRiskNo05",
+                "label": "ระยะเวลาที่ท่านคาดว่าจะไม่มีความจำเป็นต้องใช้เงินลงทุนนี้",
+                "answer": [
+                    {
+                        "id": "4",
+                        "label": "มากกว่า 5 ปี",
+                        "score": 4
+                    }
+                ]
+            },
+            {
+                "id": "applicantRiskScoreRiskNo06",
+                "label": "ความสามารถในการรับความเสี่ยงของท่าน คือ",
+                "answer": [
+                    {
+                        "id": "4",
+                        "label": "เน้นผลตอบแทนสูงสุดในระยะยาว แต่อาจเสี่ยงที่จะสูญเงินต้นส่วนใหญ่ได้",
+                        "score": 4
+                    }
+                ]
+            },
+            {
+                "id": "applicantRiskScoreRiskNo07",
+                "label": "เมื่อพิจารณารูปแสดงตัวอย่างผลตอบแทนของกลุ่มการลงทุนที่อาจเกิดขึ้นด้านล่าง ท่านเต็มใจที่จะลงทุนในกลุ่มการลงทุนใดมากที่สุด",
+                "answer": [
+                    {
+                        "id": "4",
+                        "label": "กลุ่มการลงทุนที่ 4 มีโอกาสได้รับผลตอบแทนสูงสุด 25% แต่อาจมีผลขาดทุนได้ถึง 15%",
+                        "score": 4
+                    }
+                ]
+            },
+            {
+                "id": "applicantRiskScoreRiskNo08",
+                "label": "ถ้าท่านเลือกลงทุนในทรัพย์สินที่มีโอกาสได้รับผลตอบแทนมาก แต่มีโอกาสขาดทุนสูงด้วยเช่นกัน ท่านจะรู้สึกอย่างไร",
+                "answer": [
+                    {
+                        "id": "4",
+                        "label": "ไม่กังวลกับโอกาสขาดทุนสูง และหวังกับผลตอบแทนที่อาจจะได้รับสูงขึ้น",
+                        "score": 4
+                    }
+                ]
+            },
+            {
+                "id": "applicantRiskScoreRiskNo09",
+                "label": "ท่านจะรู้สึกกังวล/รับไม่ได้ เมื่อมูลค่าเงินลงทุนของท่านมีการปรับตัวลดลงในสัดส่วนเท่าใด",
+                "answer": [
+                    {
+                        "id": "4",
+                        "label": "มากกว่า 20% ขึ้นไป",
+                        "score": 4
+                    }
+                ]
+            },
+            {
+                "id": "applicantRiskScoreRiskNo10",
+                "label": "หากปีที่แล้วท่านลงทุนไป 100,000 บาท ปีนี้ท่านพบว่ามูลค่าเงินลงทุนลดลงเหลือ 85,000 บาท ท่านจะทำอย่างไร",
+                "answer": [
+                    {
+                        "id": "4",
+                        "label": "ยังมั่นใจ เพราะเข้าใจว่าต้องลงทุนระยะยาว และจะเพิ่มเงินลงทุนในแบบเดิมเพื่อเฉลี่ยต้นทุน",
+                        "score": 4
+                    }
+                ]
+            },
+            {
+                "id": "canAcceptDerivativeInvestment",
+                "label": "หากการลงทุนในสัญญาซื้อขายล่วงหน้า (อนุพันธ์) และหุ้นกู้ที่มีอนุพันธ์แฝงประสบความสําเร็จ ท่านจะได้รับผลตอบแทนในอัตราที่สูงมาก แต่หากการลงทุนล้มเหลว ท่านอาจจะสูญเงินลงทุนท้ังหมด และอาจต้องลงเงินชดเชยเพ่ิมบางส่วน ท่านยอมรับได้เพียงใด",
+                "answer": [
+                    {
+                        "id": "true",
+                        "label": "ได้",
+                        "score": 0
+                    }
+                ]
+            },
+            {
+                "id": "canAcceptFxRisk",
+                "label": "นอกเหนือจากความเสี่ยงในการลงทุนแล้ว ท่านสามารถรับความเสี่ยงด้านอัตราแลกเปลี่ยนได้เพียงใด",
+                "answer": [
+                    {
+                        "id": "true",
+                        "label": "ได้",
+                        "score": 0
+                    }
+                ]
+            }
+        ],
+        "tel": "",
+        "residence": {
+            "no": "5/2553",
+            "moo": "10",
+            "villageType": {
+                "key": "none",
+                "displayName": "ไม่มี",
+                "type": "dropdown"
+            },
+            "building": "",
+            "floor": "",
+            "soi": "-",
+            "road": "",
+            "subDistrict": "บางตลาด",
+            "district": "ปากเกร็ด",
+            "province": "นนทบุรี",
+            "country": "TH",
+            "postalCode": "11120"
+        },
+        "fax": "",
+        "otherInfo": [
+            {
+                "questionId": "endBeneficiaryOwner",
+                "answer": [
+                    {
+                        "id": "1",
+                        "label": "ตนเอง"
+                    }
+                ]
+            }
+        ],
+        "familyInfo": {
+            "maritalStatus": {
+                "key": "Single",
+                "displayName": "โสด",
+                "type": "dropdown"
+            },
+            "spouseThFirstName": "",
+            "spouseThLastName": "",
+            "spouseEnFirstName": "",
+            "spouseEnLastName": "",
+            "spouseCardNumber": ""
+        },
+        "acceptedTerms": [
+            {
+                "term": "PERSONAL_INFO_TERM",
+                "version": "1"
+            },
+            {
+                "term": "NDID_TERM",
+                "version": "1"
+            },
+            {
+                "term": "SUITABILITY_TERM",
+                "version": "1"
+            },
+            {
+                "term": "FATCA_TERM",
+                "version": "1"
+            },
+            {
+                "term": "APPLICATION_TERM",
+                "version": "1"
+            },
+            {
+                "term": "FCN_FORM"
+            },
+            {
+                "term": "FATCA_CRS_FORM"
+            }
+        ],
+        "referralId": "8611",
+        "work": {
+            "no": "5/2553",
+            "moo": "10",
+            "villageType": {
+                "key": "none",
+                "displayName": "ไม่มี",
+                "type": "dropdown"
+            },
+            "building": "",
+            "floor": "",
+            "soi": "-",
+            "road": "",
+            "subDistrict": "บางตลาด",
+            "district": "ปากเกร็ด",
+            "province": "นนทบุรี",
+            "country": "TH",
+            "postalCode": "11120"
+        },
+        "identificationCardType": "CITIZEN_CARD",
+        "version": 20250100,
+        "enLastName": "BURANIKANONT",
+        "emailStatus": "verified",
+        "nationality": "TH",
+        "verifyLED": "{\"status\":\"000\",\"data\":null,\"message\":\"NONE\"}",
+        "thLastName": "บูรณิกานนท์",
+        "verificationType": "NDID_WITH_DATA",
+        "applicationId": 138365,
+        "refCode": "kLqS",
+        "cardNumber": "3101401153431",
+        "selectedIDP": {
+            "key": "7ED9E82B-CCC0-419E-B7F2-9008C9925534",
+            "displayName": "Siam Commercial Bank (SCB)",
+            "type": "radio",
+            "applicationImage": "assets/images/idp/scb.png?0.8462342203574755",
+            "applicationTitle": "Siam Commercial Bank (SCB)",
+            "applicationDescription": ""
+        },
+        "userAuthen": {
+            "userId": 138963,
+            "sttUsername": null,
+            "cid": "3101401153431",
+            "firstName": "อิสราภรณ์",
+            "lastName": "บูรณิกานนท์",
+            "birthDate": "1961-01-06",
+            "birthDateYear": "1961",
+            "birthDateMonth": "01",
+            "birthDateDay": "06",
+            "telNo": "0818459654",
+            "email": null,
+            "userTerms": {
+                "PERSONAL_INFO_TERM": "1"
+            }
+        },
+        "suitabilityRiskLevel": "5",
+        "crsAnswers": {
+            "crsNationality": [
+                "Thai"
+            ],
+            "crsPlaceOfBirthCity": "Bangkok",
+            "crsPlaceOfBirthCountry": "TH",
+            "crsTaxResidenceInCountriesOtherThanTheUS": true,
+            "crsDetails": [
+                {
+                    "countryOfTaxResidence": "TH",
+                    "tin": "3101401153431"
+                }
+            ],
+            "crsDeclarationDate": "20250305"
+        },
+        "lastState": "open-account-complete",
+        "title": {
+            "key": "MISS",
+            "displayName": "นางสาว",
+            "type": "dropdown"
+        },
+        "mailing": {
+            "no": "5/2553",
+            "moo": "10",
+            "villageType": {
+                "key": "none",
+                "displayName": "ไม่มี",
+                "type": "dropdown"
+            },
+            "building": "",
+            "floor": "",
+            "soi": "-",
+            "road": "",
+            "subDistrict": "บางตลาด",
+            "district": "ปากเกร็ด",
+            "province": "นนทบุรี",
+            "country": "TH",
+            "postalCode": "11120"
+        },
+        "verifyAMLO": {
+            "HR-08-RISK": "N",
+            "UN List": "N",
+            "HR-02": "N",
+            "FREEZE-05": "N"
+        },
+        "contactAddressSameAsFlag": {
+            "key": "Residence",
+            "displayName": "ตามบัตรประชาชน",
+            "type": "dropdown"
+        },
+        "cardExpiryDate": {
+            "date": {
+                "year": 2030,
+                "month": 1,
+                "day": 6
+            },
+            "jsdate": "2030-01-05T17:00:00.000Z",
+            "formatted": "06/01/2573",
+            "epoc": 1893862800
+        },
+        "knowledgeAnswerList": [
+            {
+                "questionId": "knowledgeQuestion1",
+                "answer": [
+                    {
+                        "id": "Y",
+                        "label": "ใช่"
+                    }
+                ]
+            },
+            {
+                "questionId": "knowledgeQuestion2",
+                "answer": [
+                    {
+                        "id": "Y",
+                        "label": "ใช่"
+                    }
+                ]
+            },
+            {
+                "questionId": "knowledgeQuestion3",
+                "answer": [
+                    {
+                        "id": "Y",
+                        "label": "ใช่"
+                    }
+                ]
+            }
+        ],
+        "otherContactInfo": [
+            {
+                "questionId": "name",
+                "answer": [
+                    {
+                        "id": null,
+                        "label": "วราภรณ์"
+                    }
+                ]
+            },
+            {
+                "questionId": "lastName",
+                "answer": [
+                    {
+                        "id": null,
+                        "label": "บูรณิกานนท์"
+                    }
+                ]
+            },
+            {
+                "questionId": "relation",
+                "answer": [
+                    {
+                        "id": "3",
+                        "label": "พี่ น้อง"
+                    }
+                ]
+            },
+            {
+                "questionId": "telRelation",
+                "answer": [
+                    {
+                        "id": null,
+                        "label": "0818481272"
+                    }
+                ]
+            }
+        ],
+        "otherAccountInfo": {
+            "redemptionBankAccounts": [
+                {
+                    "bankCode": "002",
+                    "bankName": "ธนาคารกรุงเทพ จำกัด (มหาชน)",
+                    "bankBranchCode": "0061",
+                    "bankBranchName": "สาขาถนนสามัคคี ประชานิเวศน์",
+                    "bankAccountNo": "0610567729",
+                    "bankAccountName": "อิสราภรณ์ บูรณิกานนท์",
+                    "defaultAccount": true
+                }
+            ],
+            "atsService": {
+                "key": "2",
+                "displayName": "สมัครใช้บริการ ATS ธนาคารอื่นๆ",
+                "type": "checkbox"
+            },
+            "ddrBank": null
+        },
+        "email": "BISARAPORN@YAHOO.COM",
+        "brokerId": "025",
+        "uploadedAttachments": {
+            "138365_nationalIdCard.jpg": true,
+            "138365_selfieNationalIdCard.jpg": true,
+            "138365_signature.jpg": true,
+            "138365_bookbankATS.jpg": true
+        },
+        "declarationInfo": [
+            {
+                "questionId": "investmentObjective",
+                "answer": [
+                    {
+                        "id": "Investment",
+                        "label": "เพื่อการลงทุน"
+                    },
+                    {
+                        "id": "RetirementInvestment",
+                        "label": "เพื่อการเกษียณ"
+                    },
+                    {
+                        "id": "ForTaxBenefits",
+                        "label": "เพื่อสิทธิประโยชน์ทางภาษี"
+                    }
+                ]
+            },
+            {
+                "questionId": "politicalRelatedPerson",
+                "answer": [
+                    {
+                        "id": "false",
+                        "label": "ไม่ใช่"
+                    }
+                ]
+            },
+            {
+                "questionId": "investmentObjectiveOther",
+                "answer": [
+                    {
+                        "id": "3",
+                        "label": "เคย ตั้งแต่ 3 ปีขึ้นไป"
+                    }
+                ]
+            },
+            {
+                "questionId": "rejectFinancial",
+                "answer": [
+                    {
+                        "id": "false",
+                        "label": "ไม่ใช่"
+                    }
+                ]
+            },
+            {
+                "questionId": "moneyLaundering",
+                "answer": [
+                    {
+                        "id": "false",
+                        "label": "ไม่ใช่"
+                    }
+                ]
+            }
+        ],
+        "tfexAssessmentAnswerList": [],
+        "workAddressOption": {
+            "key": "Residence",
+            "displayName": "ตามบัตรประชาชน",
+            "type": "dropdown"
+        },
+        "childrenInfo": {
+            "children": [],
+            "childrenAmount": {
+                "key": "0",
+                "displayName": "ไม่มีบุตร",
+                "type": "dropdown"
+            },
+            "hasChildren": false
+        },
+        "birthDate": {
+            "date": {
+                "day": 6,
+                "month": 1,
+                "year": 1961
+            },
+            "jsdate": "1961-01-06T00:00:00.000Z",
+            "formatted": "06/01/2504",
+            "epoc": -283564800
+        },
+        "accountTypeList": [
+            {
+                "id": "EQUITY_CASH_BALANCE",
+                "name": "บัญชีหุ้น Pre-Paid (Cash Balance)"
+            },
+            {
+                "id": "EQUITY_FRACTIONAL",
+                "name": "บัญชีหุ้น DRx (Fractional DR)"
+            },
+            {
+                "id": "FUND",
+                "name": "บัญชีกองทุนรวม"
+            }
+        ],
+        "financialInfo": [
+            {
+                "questionId": "occupationId",
+                "answer": [
+                    {
+                        "id": "120",
+                        "label": "เกษียณอายุ",
+                        "optional": {
+                            "isShowBusinessType": false,
+                            "isShowCompanyName": true,
+                            "isShowPosition": false,
+                            "isShowWorkAddress": false,
+                            "isShowWorkAddressOption": true
+                        }
+                    }
+                ]
+            },
+            {
+                "questionId": "companyName",
+                "answer": [
+                    {
+                        "id": null,
+                        "label": "ที่บ้าน"
+                    }
+                ]
+            },
+            {
+                "questionId": "monthlyIncomeLevel",
+                "answer": [
+                    {
+                        "id": "LEVEL4",
+                        "label": "50,001 - 100,000"
+                    }
+                ]
+            },
+            {
+                "questionId": "incomeSource",
+                "answer": [
+                    {
+                        "id": "SAVINGS",
+                        "label": "เงินออม"
+                    },
+                    {
+                        "id": "RETIREMENT",
+                        "label": "เงินเกษียณ"
+                    }
+                ]
+            },
+            {
+                "questionId": "incomeSourceCountry",
+                "answer": [
+                    {
+                        "id": "TH",
+                        "label": "ประเทศไทย"
+                    }
+                ]
+            },
+            {
+                "questionId": "assetValue",
+                "answer": [
+                    {
+                        "id": null,
+                        "label": "50000000"
+                    }
+                ]
+            }
+        ]
+    },
+    "applicationTerms": {
+        "PERSONAL_INFO_TERM": "1"
+    },
+    "user": {
+        "userId": 138963,
+        "cid": "3101401153431",
+        "firstName": "อิสราภรณ์",
+        "lastName": "บูรณิกานนท์",
+        "telNo": "0818459654"
+    },
+    "userIP": "49.230.59.194"
+}
